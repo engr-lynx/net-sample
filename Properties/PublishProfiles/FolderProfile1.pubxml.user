@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Joseph\Documents\ILMserver\ilmVMserver\AccountManagement</_PublishTargetUrl>
+    <History>True|2021-05-03T06:11:15.9842541Z;True|2021-04-21T11:52:53.9455766+08:00;True|2021-04-20T12:30:06.2827785+08:00;True|2021-04-16T15:16:18.3958592+08:00;True|2021-04-16T14:37:28.8484638+08:00;True|2021-04-16T14:35:42.3064584+08:00;True|2021-04-12T12:08:37.7614060+08:00;True|2021-04-12T11:02:18.9350183+08:00;</History>
+  </PropertyGroup>
+</Project>
