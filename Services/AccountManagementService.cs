@@ -38,6 +38,12 @@ namespace AccountManagementService.Services
 
         private readonly IWebHostEnvironment _environment;
 
+        public string FunctionHandler(string input, ILambdaContext context)
+        {
+            Console.WriteLine("Test");
+            Console.WriteLine(input);
+            return input?.ToUpper();
+        }
 
         public AccountManagementServices(IOptions<AppSetting> appSettings, IWebHostEnvironment IWebHostEnvironment, IOptions<connectionString> settings)
         {

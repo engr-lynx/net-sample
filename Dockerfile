@@ -86,4 +86,4 @@ ENV \
     # Disable Microsoft's telemetry collection
     DOTNET_CLI_TELEMETRY_OPTOUT=true
 COPY --from=publish /app/publish . 
-ENTRYPOINT ["./AccountManagementService"]
+CMD ["AccountManagementService::AccountManagementService.Services.AccountManagementServices::FunctionHandler"]
