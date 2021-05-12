@@ -121,6 +121,7 @@ namespace AccountManagementService.Services
             oCmd.Transaction = oTrans;
             try
             {
+                SqlCommand nCmd = new SqlCommand();            
                 oCmd.CommandText = "users_verification";
                 oCmd.CommandType = CommandType.StoredProcedure;
                 oCmd.Parameters.Clear();
