@@ -87,4 +87,4 @@ ENV \
     DOTNET_CLI_TELEMETRY_OPTOUT=true
 COPY --from=publish /app/publish .
 
-CMD ["AccountManagementService::AccountManagementService.Services.AccountManagementServices::FunctionHandler"]
+CMD ["./AccountManagementService"]
